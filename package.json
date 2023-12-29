@@ -1,14 +1,17 @@
 {
   "name": "react-three-npc",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ssethsara"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Supun Sethsara",
+  "license": "MIT",
   "dependencies": {
     "@react-three/fiber": "^8.15.12",
     "three": "^0.160.0",
