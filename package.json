@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/ssethsara/react-three-npc"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ssethsara"
   },
