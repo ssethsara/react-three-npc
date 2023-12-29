@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import { NavMeshLoader, Vector3 } from "yuka";
 import { create } from "zustand";
-import { createConvexRegionHelper } from "../utils/createConvexRegionHelper";
+import { createConvexRegionHelper } from "./createConvexRegionHelper";
 
 export const useNavMesh = create((set, get) => ({
   raycaster: new THREE.Raycaster(),
