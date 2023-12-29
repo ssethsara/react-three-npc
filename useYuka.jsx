@@ -6,7 +6,7 @@ import {
   OnPathBehavior,
   Vector3,
 } from "yuka";
-import { useNavMesh } from "../stores/useNavMesh";
+import { useNavMesh } from "./useNavMesh";
 import { useFrame } from "@react-three/fiber";
 
 const context = createContext();
@@ -45,16 +45,6 @@ export function Manager({ children }) {
         followPathBehavior: followPathBehavior,
         onPathBehavior: onPathBehavior,
       });
-
-      // // Set up ghost
-      // const seekBehavior = new OffsetPursuitBehavior(
-      //   player,
-      //   new Vector3(1, 0, 1)
-      // );
-
-      // ghost.steering.add(seekBehavior);
-      // ghost.maxSpeed = 2;
-      // ghost.position.z = -5;
     });
 
     useNavMesh.subscribe(
@@ -76,10 +66,6 @@ export function Manager({ children }) {
         playerDate.onPathBehavior.path.clear();
         playerDate.followPathBehavior.active = true;
         playerDate.followPathBehavior.path.clear();
-
-        // refs.pathHelper.visible = true;
-        // refs.pathHelper.geometry.dispose();
-        // refs.pathHelper.geometry = new THREE.BufferGeometry().setFromPoints(path);
 
         for (const point of path) {
           playerDate.followPathBehavior.path.add(point);
