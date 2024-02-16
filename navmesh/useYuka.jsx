@@ -68,7 +68,7 @@ export function Manager({ children }) {
       agentDate.followPathBehavior.path.clear();
       agentDate.onPathBehavior.active = true;
       agentDate.followPathBehavior.active = true;
-      agentDate.obstaclesAvoidenceBehaviorw.active = true;
+      agentDate.obstaclesAvoidenceBehavior.active = true;
 
       for (const point of path) {
         agentDate.followPathBehavior.path.add(point);
