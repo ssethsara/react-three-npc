@@ -1,2 +1,3 @@
-export * from "./useNavMesh";
-export * from "./useYuka";
+export * from "./navmesh/useNavMesh";
+export * from "./navmesh/useYuka";
+export * from "./navmesh/NavMeshAgent";
