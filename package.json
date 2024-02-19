@@ -1,6 +1,6 @@
 {
   "name": "@ssethsara/react-three-npc",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "This is a non playerable character system for react three fiber based games. NPC will follow paths and target on navmesh. This system based on Yuka.js",
   "main": "index.js",
   "repository": {
