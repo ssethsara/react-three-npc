@@ -10,9 +10,9 @@
 </a>
 <h3  align="center">React three NPC</h3>
 <p  align="center">
-<a  href="https://github.com/ssethsara/react-three-npc-sample">Sample Project</a>
-<a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-<a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+<a  href="https://github.com/ssethsara/react-three-npc-sample">Sample Project</a><br/>
+<a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a><br/>
+<a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a><br/>
 </p>
 </div>
 
@@ -90,6 +90,12 @@ This application built with react and I have used following packages.
 <!-- GETTING STARTED -->
 
 ## Getting Started
+
+###Youtube video 
+
+[https://youtu.be/yI9lUPgPxBg](https://youtu.be/yI9lUPgPxBg)
+
+<br/>
 
 First create your react three fiber projects using instructions on theirs official web site
 https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
