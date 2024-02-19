@@ -1,14 +1,12 @@
 <a  name="readme-top"></a>
 
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 
 <br  />
 <div  align="center">
 <a  href="https://github.com/othneildrew/Best-README-Template">
-<img  src="images/Logo.png"  alt="Logo"  width="120"  height="80">
+<img  src="images/Logo.png"  alt="Logo"  width="140"  height="80">
 </a>
 <h3  align="center">React three NPC</h3>
 <p  align="center">
@@ -429,6 +427,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Supun Sethsara - [@twitter/x](https://twitter.com/Sethsara)
+
+LinkedIn - [Supun Sethsara](https://linkedin.com/in/supun-sethsara)
 
 Project Link: [https://github.com/ssethsara/react-three-npc](https://github.com/ssethsara/react-three-npc)
 
